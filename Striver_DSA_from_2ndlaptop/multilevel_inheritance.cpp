@@ -6,7 +6,7 @@ class A
 public:
     void showA()
     {
-        cout << "This is class A" << endl;
+        cout << "this is first class a " << endl;
     }
 };
 
@@ -15,7 +15,7 @@ class B : public A
 public:
     void showB()
     {
-        cout << "This is class B" << endl;
+        cout << "this is second class b" << endl;
     }
 };
 
@@ -24,7 +24,7 @@ class C : public B
 public:
     void showC()
     {
-        cout << "This is class C" << endl;
+        cout << "this is third class c" << endl;
     }
 };
 
